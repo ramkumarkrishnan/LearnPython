@@ -78,8 +78,8 @@ print (10 / 5)
 print (11 // 5) # floor division - floored to nearest smaller integer
 print (14.9999 // 5)
 print (10 % 5)
-print (-10 % 5)
-print (10 % -5) # remainder is -ve is rhs operand is -ve
+print (-10 % 3)
+print (10 % -3) # remainder is -ve only if rhs operand is -ve
 print (14 % 5)
 print (14.9999 % 5)
 
@@ -89,9 +89,9 @@ print (5 < 10)
 print (5 == 5)
 print (5 <= 10)
 print (5 != 10)
-print (5 is not 10)
-print (10/2 is 5)
-print (10/2 is not 6)
+## print (5 is not 10)
+## print (10/2 is 5)
+## print (10/2 is not 6)
 
 print ("\nLogical operators")
 print ((10 < 5) and (5 < 10))
@@ -192,5 +192,3 @@ elif (price > 0):
 else:
     print ("Error in price")
 print ("Price: " + str(price) + " Final price: " + str(final_price))
-
-

@@ -2,7 +2,7 @@
 # for [iterator] in [sequence]
 # [sequence] = range(start, end, step)
 
-print ("\nLoop with range")
+print ("\nLoop with range with cool if-then-else")
 evenodd = lambda n : "even" if n % 2 == 0 else "odd"
 for i in range(1, 11):
     print (i, "is " + str(evenodd(i)))

@@ -5,3 +5,4 @@ print (message);
 print (message.lstrip().rstrip())
 print (f"Hillsboro's {einstein.title().removeprefix('Albert ')} bagels are good") # how do split the sentence and get the Nth word
 print (f"{einstein.title().removesuffix(' Einstein')} Pinto ko gussa kyon aata hain") # how do split the sentence and get the Nth word
+print (message);
